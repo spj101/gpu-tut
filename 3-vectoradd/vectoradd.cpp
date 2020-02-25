@@ -27,8 +27,8 @@ int main()
     
     // Allocate device memory
     int *d_a, *d_b;
-    cudaMalloc(&d_a, vector_size);
-    cudaMalloc(&d_b, vector_size);
+    CUDA_SAFE_CALL(cudaMalloc(&d_a, vector_size));
+    CUDA_SAFE_CALL(cudaMalloc(&d_b, vector_size));
     
     // Initialise host vectors
     for (size_t i = 0; i < n; i++)
