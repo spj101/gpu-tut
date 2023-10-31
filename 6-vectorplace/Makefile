@@ -1,7 +1,7 @@
 NAME = vectorplace
 
 CXX = nvcc
-CXXFLAGS = -std=c++11 -rdc=true -x cu
+CXXFLAGS = -std=c++14 -rdc=true -x cu
 
 .DEFAULT_GOAL := $(NAME)
 
