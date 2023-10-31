@@ -1,7 +1,9 @@
 ## Vector Add
 
 Use a GPU to perform vector addition:
+```math
 a = a + b
+```
 
 Demonstrates:
 * Memory allocation: `cudaMalloc( void** devPtr, size_t size)`

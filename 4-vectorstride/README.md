@@ -1,7 +1,9 @@
 ## Vector Stride
 
 Use a GPU to perform vector addition:
+```math
 a = a + b
+```
 using the grid-stride loop pattern.
 
 Demonstrates:

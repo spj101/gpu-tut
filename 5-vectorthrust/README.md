@@ -1,7 +1,9 @@
 ## Vector Thrust
 
 Use a GPU to perform vector addition:
+```math
 a = a + b
+```
 using the thrust library.
 
 The thrust library is a C++ parallel programming library which resembles the C++ Standard Template Library (STL). Under the hood it uses a variety of parallel progamming systems (C++ threads, omp, tbb, cuda).
