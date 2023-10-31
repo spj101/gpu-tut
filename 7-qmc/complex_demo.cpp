@@ -23,6 +23,8 @@ struct my_functor_t {
 int main() {
     
     integrators::Qmc<complex_t,double,3,integrators::transforms::Korobov<3>::type> integrator;
+    integrator.verbosity = 3;
+    integrator.devices = {0};
     integrators::result<complex_t> result = integrator.integrate(my_functor);
     
     std::cout << std::setprecision(16);
