@@ -1,6 +1,6 @@
 ## Hello World
 
-Demonstates:
+Demonstrates:
 * Kernel declaration: `__global__ void hello()`
 * Kernel invocation: `hello<<< blocks, threads_per_block >>>()`
 * Device synchronisation: `cudaDeviceSynchronize()`
